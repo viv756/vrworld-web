@@ -23,7 +23,10 @@ const Navbar = () => {
               {NavLinks.map(({ id, name, link }) => {
                 return (
                   <li key={id} className="py-4">
-                    <a href={link} className="text-xl font-semibold hover:text-primary py-2 hover:border-b-2 hover:border-secondary transition-colors duration-500">
+                    <a
+                      href={link}
+                      className="text-xl font-semibold hover:text-primary py-2 hover:border-b-2 hover:border-secondary transition-colors duration-500"
+                    >
                       {name}
                     </a>
                   </li>
@@ -33,8 +36,8 @@ const Navbar = () => {
               <DarkMode />
             </ul>
           </nav>
-         {/* Mobile View Sidebar */}
-         <div className="md:hidden block">
+          {/* Mobile View Sidebar */}
+          <div className="md:hidden block">
             <div className="flex items-center gap-4">
               <DarkMode />
               {showMenu ? (
