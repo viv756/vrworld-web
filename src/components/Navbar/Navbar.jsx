@@ -1,9 +1,13 @@
+import { useState } from "react";
 import { logo } from "../../assets";
+import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import { NavLinks } from "../../constants";
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => setShowMenu(!showMenu);
   return (
-    <div>
+    <div className=" relative z-[9999] text-black dark:text-white duration-300">
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           {/* {logo section} */}
@@ -28,7 +32,10 @@ const Navbar = () => {
             </ul>
           </nav>
           {/* {mobile view sidebar} */}
-         
+          <div>
+            {showMenu ? <HiMenuAlt1 onClick={toggleMenu} className="cursor-pointer " size={30} /> : <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer " size={30} />}
+          
+          </div>
         </div>
       </div>
     </div>
