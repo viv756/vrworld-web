@@ -33,9 +33,25 @@ const Navbar = () => {
               <DarkMode />
             </ul>
           </nav>
-          {/* Mobile View Sidebar */}
-
-          {showMenu ? <HiMenuAlt1 onClick={toggleMenu} className="cursor-pointer " size={30} /> : <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer " size={30} />}
+         {/* Mobile View Sidebar */}
+         <div className="md:hidden block">
+            <div className="flex items-center gap-4">
+              <DarkMode />
+              {showMenu ? (
+                <HiMenuAlt1
+                  onClick={toggleMenu}
+                  className="cursor-pointer "
+                  size={30}
+                />
+              ) : (
+                <HiMenuAlt3
+                  onClick={toggleMenu}
+                  className="cursor-pointer "
+                  size={30}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </div>
