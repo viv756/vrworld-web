@@ -21,6 +21,10 @@ const Hero = () => {
               <img src={hero} alt="" className=""/>
             </div>
           </div>
+          {/* {animated glob} */}
+          <div className="h-[300px] w-[300px] bg-gradient-to-r from-primary to-secondary rounded-full absolute top-0 left-0 blur-3xl animated-wrapper">
+
+          </div>
         </div>
       </div>
     </>
