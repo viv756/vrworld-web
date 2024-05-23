@@ -11,7 +11,7 @@ const Banner = () => {
             <img src={banner1} alt="banner" className="w-full max-w-[400px]" />
           </div>
           {/* {text section} */}
-          <div className=" space-y-5 lg:pr-20 ">
+          <div className=" space-y-5 lg:pr-20 relative">
             <h1 className="text-4xl font-semibold">
               GET READY TO ENJOY VR{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
@@ -32,6 +32,8 @@ const Banner = () => {
                 <BiPlayCircle className="text-3xl" /> See Demo
               </button>
             </div>
+            {/* {backgroud color glob} */}
+            <div className="h-[300px] w-[300px] bg-gradient-to-r from-primary to-secondary rounded-full absolute bottom-[-50px] left-[300px] blur-3xl opacity-50"></div>
           </div>
         </div>
       </div>
