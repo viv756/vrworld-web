@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import Banner2 from "./components/Banner/Banner2";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Quotes from "./components/Quotes/Quotes";
@@ -10,7 +11,7 @@ const App = () => {
       <Hero />
       <Quotes />
       <Banner />
-      
+      <Banner2/>
     </main>
   );
 };
