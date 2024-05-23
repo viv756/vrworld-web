@@ -9,13 +9,13 @@ const Banner2 = () => {
           {/* text content section */}
           <div className="order-2 sm:order-1  lg:pr-20 relative">
             <div className="relative z-10 ">
-              <h1>
+              <h1 className="text-4xl font-semibold">
                 GET READY TO ENJ0Y VR{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
                   Movies WITH OUR PLATFORM
                 </span>
               </h1>
-              <p data-aos="fade-up" data-aos-delay="500">
+              <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
                 molestias quia exercitationem ex inventore labore beatae cumque
                 et quaerat voluptas?
