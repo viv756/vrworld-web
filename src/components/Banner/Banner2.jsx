@@ -3,7 +3,7 @@ import { BiPlayCircle } from "react-icons/bi";
 
 const Banner2 = () => {
   return (
-    <div classname="py-2 sm:py-0 relative ">
+    <div className="py-2 sm:py-0 relative ">
       <div className='container min-h-[620px] flex items-center'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
           {/* {text section} */}
@@ -27,10 +27,11 @@ const Banner2 = () => {
                   {" "}
                   <BiPlayCircle className="text-3xl" /> See Demo
                 </button>
-              </div>
+            </div>
+          
           </div>
            {/* {image section} */}
-           <div>
+           <div className='order-2 sm:order-1'>
           <img src={banner2} alt="banner" className='w-full max-w-[400px]' />
          </div>
         </div>
