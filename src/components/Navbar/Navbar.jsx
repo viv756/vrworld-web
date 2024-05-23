@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { logo } from "../../assets";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
-import { NavLinks } from "../../constants";
+import { NavLinks } from "../../constants/index";
 import DarkMode from "./DarkMode";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
