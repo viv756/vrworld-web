@@ -1,4 +1,4 @@
-import { banner1 } from '../../assets'
+import { banner2 } from '../../assets'
 import { BiPlayCircle } from "react-icons/bi";
 
 const Banner2 = () => {
@@ -6,10 +6,6 @@ const Banner2 = () => {
     <div classname="py-2 sm:py-0 relative ">
       <div className='container min-h-[620px] flex items-center'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
-          {/* {image section} */}
-          <div>
-          <img src={banner1} alt="banner" className='w-full max-w-[400px]' />
-         </div>
           {/* {text section} */}
           <div className="order-2 sm:order-1 space-y-5 lg:pr-20 ">
               <h1 className="text-4xl font-semibold">
@@ -32,7 +28,11 @@ const Banner2 = () => {
                   <BiPlayCircle className="text-3xl" /> See Demo
                 </button>
               </div>
-            </div>
+          </div>
+           {/* {image section} */}
+           <div>
+          <img src={banner2} alt="banner" className='w-full max-w-[400px]' />
+         </div>
         </div>
       </div>
     </div>
