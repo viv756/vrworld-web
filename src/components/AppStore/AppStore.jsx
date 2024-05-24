@@ -1,9 +1,28 @@
-import React from 'react'
-
+import React from "react";
+import { app_store, play_store } from "../../assets";
 const AppStore = () => {
   return (
-    <div></div>
-  )
-}
+    <div className="container py-10 sm:min-h[400px] sm:grid sm:place-items-center">
+      <div className="space-y-6 max-w-xl mx-auto">
+        <h1 className="text-2xl text-center sm:text-4xl font-semibold">
+          Get Started with our app
+        </h1>
+        <p className="text-center sm:px-20">
+          {" "}
+          Get ready to dive into immersive virtual reality experiences
+          entertainment. Explore, play, and conquer in a whole new dimension!
+        </p>
+        <div className="flex flex-wrap justify-center gap-4 items-center">
+          <a href="#">
+            <img src={app_store} alt="appstore"   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
+          </a>
+          <a href="#">
+            <img src={play_store} alt="appstore"   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default AppStore
+export default AppStore;
