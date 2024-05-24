@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Quotes from "./components/Quotes/Quotes";
 import AppStore from "./components/AppStore/AppStore";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Banner2 />
       <Features />
       <AppStore />
+      <Footer/>
     </main>
   );
 };
