@@ -16,13 +16,11 @@ const Banner2 = ({ togglePlay }) => {
               >
                 GET READY TO ENJ0Y VR{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                  Movies WITH OUR PLATFORM
+                TRAVEL AND ADVENTURE WITH OUR PLATFORM
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
-                molestias quia exercitationem ex inventore labore beatae cumque
-                et quaerat voluptas?
+              Embark on extraordinary journeys from the comfort of your home with our VR platform. Explore breathtaking destinations, experience thrilling adventures, and immerse yourself in new worlds. Discover the ultimate virtual travel experience today!
               </p>
               <div className="flex gap-6">
                 <button

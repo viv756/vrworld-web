@@ -32,7 +32,7 @@ export const FeaturesData = [
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Explore a world of stunning visuals and compelling stories.",
     aosDelay: "300",
   },
   {
@@ -41,7 +41,7 @@ export const FeaturesData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Experience peace of mind with our secure transaction system. ",
     aosDelay: "500",
   },
   {
@@ -50,7 +50,7 @@ export const FeaturesData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Immerse yourself in the essence of life with our platform. .",
     aosDelay: "700",
   },
 ];

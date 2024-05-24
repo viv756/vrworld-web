@@ -19,19 +19,18 @@ const Footer = () => {
               Metaverse
             </h1>
             <p className="text-sm">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              dolor illum a aut iste expedita.
+            Step into the next dimension of digital existence. The metaverse is a collective virtual shared space, merging physical and virtual reality to create immersive experiences
             </p>
             <br />
             {/* contact section */}
             <div>
               <div className="flex items-center gap-3">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Thrissu,Kerla</p>
               </div>
               <div className="flex items-center gap-3">
                 <FaMobileAlt />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Thrissur,Kerala</p>
               </div>
             </div>
             {/* social handle */}
