@@ -24,11 +24,11 @@ const Banner = ({ togglePlay }) => {
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="500">
-                Get ready to dive into immersive virtual reality experiences
-                with our cutting-edge platform. Enjoy a wide range of VR games
-                designed to transport you to new worlds and provide unparalleled
-                entertainment. Explore, play, and conquer in a whole new
-                dimension!
+                Dive into the immersive world of virtual reality movies with our
+                cutting-edge platform. Experience cinema like never before,
+                where every scene surrounds you in stunning 360-degree views.
+                Join us and transform your movie-watching experience with the
+                ultimate VR adventure!
               </p>
               <div className="flex gap-6">
                 <button
