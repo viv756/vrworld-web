@@ -4,6 +4,7 @@ import Features from "./components/Features/Features";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Quotes from "./components/Quotes/Quotes";
+import AppStore from "./components/AppStore/AppStore";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <Quotes />
       <Banner />
       <Banner2 />
-      <Features/>
+      <Features />
+      <AppStore />
     </main>
   );
 };

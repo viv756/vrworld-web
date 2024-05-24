@@ -7,8 +7,8 @@ const Banner2 = () => {
       <div className="container min-h-[620px] flex items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center">
           {/* text content section */}
-          <div className="order-2 sm:order-1  lg:pr-20 relative">
-            <div className="relative z-10 ">
+          <div className="order-2 sm:order-1 lg:pr-20 relative">
+            <div className="space-y-5 relative z-10">
               <h1 className="text-4xl font-semibold">
                 GET READY TO ENJ0Y VR{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">

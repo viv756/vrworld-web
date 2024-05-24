@@ -11,8 +11,8 @@ const Banner = () => {
             <img src={banner1} alt="banner" className="w-full max-w-[400px]" />
           </div>
           {/* {text section} */}
-          <div className=" space-y-5 lg:pr-20 relative">
-          <div className="relative z-10">
+          <div className=" lg:pr-20 relative">
+          <div className="space-y-5 relative z-10">
             <h1 className="text-4xl font-semibold">
               GET READY TO ENJOY VR{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
